@@ -9,7 +9,7 @@
 > pip install librosa  
 > pip install jiwer  
 
-* Run the following command to start training process.
+* Run the following command to start the training process.
 > python finetune.py
 
 * Same code is utilized to continue from checkpoints to reach the step 3200.
