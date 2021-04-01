@@ -1,6 +1,9 @@
 # wav2vec2
 
-## Fine-tuning for Turkish [here](https://huggingface.co/dundar/wav2vec2-large-xlsr-53-turkish)
+Hugging Face has orginized [Fine Tuning Week](https://discuss.huggingface.co/t/open-to-the-community-xlsr-wav2vec2-fine-tuning-week-for-low-resource-languages/) for the model named [Wav2Vec2 XLSR](https://huggingface.co/facebook/wav2vec2-large-xlsr-53). During the week, I have fine tuned this model on Turkish and Finnish by using the [Common Voice](https://commonvoice.mozilla.org/en/datasets) dataset. The models I have shared on the [Hugging Face Hub](https://huggingface.co/dundar/) are **1st placed** in each language. Leaderboards are seen in the webside of Paperswithcode for [Turkish](https://paperswithcode.com/sota/speech-recognition-on-common-voice-turkish) and [Lithuanian](https://paperswithcode.com/sota/speech-recognition-on-common-voice-lithuanian).
+
+
+## Fine-tuning for Turkish [HuggingFace Hub](https://huggingface.co/dundar/wav2vec2-large-xlsr-53-turkish)
 * Before executing the training code, the following packages should be installed.
 
 > pip install datasets==1.4.1  
@@ -14,7 +17,7 @@
 
 * The same code is also utilized to continue the training from checkpoints to reach the step 3200.
 
-## Fine-tuning for Lithuanian [here](https://huggingface.co/dundar/wav2vec2-large-xlsr-53-lithuanian)
+## Fine-tuning for Lithuanian [HuggingFace Hub](https://huggingface.co/dundar/wav2vec2-large-xlsr-53-lithuanian)
 
 I have used the notebook [here](https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_Tune_XLSR_Wav2Vec2_on_Turkish_ASR_with_%F0%9F%A4%97_Transformers.ipynb) with the following parameters for the class named Wav2Vec2ForCTC.
 
